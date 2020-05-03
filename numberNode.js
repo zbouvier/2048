@@ -13,9 +13,9 @@ class numberNode
   {
     if(this.value !== 0)
     {
-        circle(this.x, this.y, this.value^2);
+        circle(this.x, this.y, 30 + this.value);
         textAlign(CENTER);
-        text(str(this.value), this.x, this.y);
+        text(str(this.value), this.x, this.y+4);
     }
 
   }
